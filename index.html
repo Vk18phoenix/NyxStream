@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NyxStream</title>
+    <!-- Linking Unicons For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <link rel="stylesheet" href="index1.css" />
+  </head>
+  <body class="sidebar-hidden">
+    <div class="container">
+      <!-- Header / Navbar -->
+      <header>
+        <nav class="navbar">
+          <div class="nav-section nav-left">
+            <button class="nav-button menu-button">
+              <i class="uil uil-bars"></i>
+            </button>
+            <a href="#" class="nav-logo">
+              <img src="nyxstream-high-resolution-logo.png" alt="Logo" class="logo-image" />
+              <h2 class="logo-text">NyxStream</h2>
+            </a>
+          </div>
+          <div class="nav-section">
+            <button class="nav-button search-back-button" id="search-back-button">
+              <i class="uil uil-arrow-left"></i>
+            </button>
+          </div>
+          <div class="nav-section nav-center">
+            <form action="#" class="search-form">
+              <input type="search" placeholder="Search" class="search-input" required />
+              <button class="nav-button search-button">
+                <i class="uil uil-search"></i>
+              </button>
+            </form>
+            <button class="nav-button mic-button">
+              <i class="uil uil-microphone"></i>
+            </button>
+          </div>
+          <div class="nav-section nav-right">
+            <button class="nav-button search-button" id="search-button">
+              <i class="uil uil-search"></i>
+            </button>
+            <button class="nav-button theme-button">
+              <i class="uil uil-moon"></i>
+            </button>
+            <img src="https://static.wikia.nocookie.net/disney/images/2/22/Srmthfg_wiki_promo_chiro.jpg/revision/latest?cb=20120722141119" alt="User Image" class="user-image" />
+          </div>
+        </nav>
+      </header>
+      <!-- Main Layout -->
+      <main class="main-layout">
+        <div class="screen-overlay"></div>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <div class="nav-section nav-left">
+            <button class="nav-button menu-button">
+              <i class="uil uil-bars"></i>
+            </button>
+            <a href="#" class="nav-logo">
+              <img src="images/logo.png" alt="Logo" class="logo-image" />
+              <h2 class="logo-text">CnTube</h2>
+            </a>
+          </div>
+          <div class="links-container">
+            <div class="link-section">
+              <a href="#" class="link-item"> <i class="uil uil-estate"></i> Home </a>
+              <a href="#" class="link-item"> <i class="uil uil-video"></i> Shorts </a>
+              <a href="#" class="link-item"> <i class="uil uil-tv-retro"></i> Subscriptions </a>
+            </div>
+            <div class="section-separator"></div>
+            <div class="link-section">
+              <h4 class="section-title">You</h4>
+              <a href="#" class="link-item"> <i class="uil uil-user-square"></i> Your channel </a>
+              <a href="#" class="link-item"> <i class="uil uil-history"></i> History </a>
+              <a href="#" class="link-item"> <i class="uil uil-clock"></i> Watch later </a>
+            </div>
+            <div class="section-separator"></div>
+            <div class="link-section">
+              <h4 class="section-title">Explore</h4>
+              <a href="#" class="link-item"> <i class="uil uil-fire"></i> Trending </a>
+              <a href="#" class="link-item"> <i class="uil uil-music"></i> Music </a>
+              <a href="#" class="link-item"> <i class="uil uil-basketball"></i> Gaming </a>
+              <a href="#" class="link-item"> <i class="uil uil-trophy"></i> Sports </a>
+            </div>
+            <div class="section-separator"></div>
+            <div class="link-section">
+              <h4 class="section-title">More from YouTube</h4>
+              <a href="#" class="link-item"> <i class="uil uil-shield-plus"></i> YouTube Plus </a>
+              <a href="#" class="link-item"> <i class="uil uil-headphones-alt"></i> YouTube Music </a>
+              <a href="#" class="link-item"> <i class="uil uil-airplay"></i> YouTube Kids </a>
+            </div>
+            <div class="section-separator"></div>
+            <div class="link-section">
+              <a href="#" class="link-item"> <i class="uil uil-setting"></i> Settings </a>
+              <a href="#" class="link-item"> <i class="uil uil-file-medical-alt"></i> Report </a>
+              <a href="#" class="link-item"> <i class="uil uil-question-circle"></i> Help </a>
+              <a href="#" class="link-item"> <i class="uil uil-exclamation-triangle"></i> Feedback </a>
+            </div>
+          </div>
+        </aside>
+        <div class="content-wrapper">
+          <!-- Category List -->
+          <div class="category-list">
+            <button class="category-button active">All</button>
+            <button class="category-button">Indian Premier League</button>
+            <button class="category-button">Music</button>
+            <button class="category-button">Gaming</button>
+            <button class="category-button">Movies</button>
+            <button class="category-button">Coding</button>
+            <button class="category-button">Comedy</button>
+            <button class="category-button">Romance</button>
+            <button class="category-button">Website</button>
+            <button class="category-button">Live</button>
+            <button class="category-button">Shreya Ghoshal</button>
+            <button class="category-button">Telugu Cinema</button>
+            <button class="category-button">Web series</button>
+            <button class="category-button">Programming</button>
+            <button class="category-button">Recently Uploaded</button>
+            <button class="category-button">Watched</button>
+            <button class="category-button">New to you</button>
+          </div>
+          <!-- Video List -->
+          <div class="video-list">
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/GkJ_wZy0iB4/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">4:07</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/kOATVFtx9eqbZZNBjMJykcZoP3DeNh4OR8Vwimn8141yI6--rPJH5hcHMrnwmCHjYE5iJcLzLBo=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Ve Kamleya (From "Rocky Aur Rani Kii Prem Kahaani")</h2>
+                  <p class="channel-name">Saregama Music</p>
+                  <p class="views">34M views • 1 year ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/407e66050936f9b996ea97dff072c22606ded1e5e53bb18ad9b4678ee68b1d93.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">2:29</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/CvgBA1ypUZNxOjiCX0l1V2FbAm7oSDPZE4YkMvkpT_4iLXQ3IXWVtBgWnznHxgtcUoj50TXqZA=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">The Good Doctor – Official Trailer</h2>
+                  <p class="channel-name">Netflix</p>
+                  <p class="views">2.5M Views • 7 years ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://upload.wikimedia.org/wikipedia/en/f/f3/Aashiqui_2_%28Poster%29.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">2:12:00</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/ukiLOR2xcRjb4vEfv_DvcTU-5WgGyhwL3w1jQxvTBVdMbBlrtDopxKwg8Scs66C8nFgXu-cl=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Aashiqui 2 New Released Full Hindi Dubbed Romantic Movie | Aditya Roy Kapur | Shraddha Kapoor</h2>
+                  <p class="channel-name">Yash Raj films</p>
+                  <p class="views">275M Views • 5 years ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/5ADJjzU17Uk/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">4:18</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/CvgBA1ypUZNxOjiCX0l1V2FbAm7oSDPZE4YkMvkpT_4iLXQ3IXWVtBgWnznHxgtcUoj50TXqZA=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">The 100 - Season 1 Trailer</h2>
+                  <p class="channel-name">Netflix</p>
+                  <p class="views">57K Views • 5 years ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/Zo5kxK4j2qY/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">4:46</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/kOATVFtx9eqbZZNBjMJykcZoP3DeNh4OR8Vwimn8141yI6--rPJH5hcHMrnwmCHjYE5iJcLzLBo=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Mandaara Video Song | Bhaagamathie | Anushka | Shreya Ghoshal | Thaman S</h2>
+                  <p class="channel-name">Saregama Music</p>
+                  <p class="views">214M Views • 4 years ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/Etkd-07gnxM/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">16:24</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/VunTf0NzCeboiPjbesBdnQuxaF3Lja7UGRbBGQAWRJgMSTj9TTLO3pS1X9qPOJGCNnmPrXeY=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Dunki: O Maahi (Full Video) | Shah Rukh Khan | Taapsee Pannu | Pritam | Arijit Singh | Irshad Kamil</h2>
+                  <p class="channel-name">T-Series</p>
+                  <p class="views">193M Views • 1 year ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/sBEvEcpnG7k/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">1:19</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/CvgBA1ypUZNxOjiCX0l1V2FbAm7oSDPZE4YkMvkpT_4iLXQ3IXWVtBgWnznHxgtcUoj50TXqZA=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Stranger Things 4 | Volume 2 Trailer | Netflix</h2>
+                  <p class="channel-name">Netflix</p>
+                  <p class="views">2.85M Views • 2 years ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/hooy-UYzvDw/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">10:34</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/pgE1VJCvsk-guws_6-47TGDH1JzCtbx0OnVpA-ngNgzr-Ii82LUDv0vPFSpYoR2FNbWSDGIBn1o=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">CSK vs RCB Match 8 Review | IPL 2025</h2>
+                  <p class="channel-name">SKB Shots</p>
+                  <p class="views">52K Views • 5 days ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/WOZSI2_m-3o/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">2:59</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/3jFh1gFXByR47e7VLyE6TOkRCXEqUbw2CIgH5kIJt2NzGeDP-qvGvwQMrZi9nVQmkEAjA_X8UQ=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Alan Walker, Sofiloud - Team Side feat. RCB (Official Music Video)</h2>
+                  <p class="channel-name">Royal Challengers Bengaluru</p>
+                  <p class="views">46.6M Views • 11 months ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/68wSTlrw_RQ/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">2:43:27</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/63BY-qOZNyAd-Tssfm0AfMEngVlRp16j4-4D95Qkjdtw90DxqVVaNiY5m2cFDqYj6xb7meUBVA=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Jalsa Telugu Full Movie || Pawan kalyan , Ileana D'Cruz</h2>
+                  <p class="channel-name">Geetha Arts</p>
+                  <p class="views">28M Views • 9 years ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://ntvb.tmsimg.com/assets/p10700229_b_h10_aa.jpg?w=960&h=540" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">2:08</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/PguboM9vSKTasgv_PYhxIwRCrhpIa6qEkccsJT3cxlCnVCR0AU3O0YYfL-XSkWMCvwF5TvZx=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">The Vampire Diaries Season 1 Trailer</h2>
+                  <p class="channel-name">Prime Video</p>
+                  <p class="views">8.3M Views • 7 years ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/taRBVfDRukY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCD9RZ8NPLhWgTgpOIwnMgcaCHXdQ" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">3:22</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/kOATVFtx9eqbZZNBjMJykcZoP3DeNh4OR8Vwimn8141yI6--rPJH5hcHMrnwmCHjYE5iJcLzLBo=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Tum Kya Mile - Rocky Aur Rani Kii Prem Kahaani | Ranveer | Alia | Pritam | Amitabh | Arijit | Shreya</h2>
+                  <p class="channel-name">Saregama Music</p>
+                  <p class="views">133M Views • 1 year ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/tSIk1QvIM2E/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">2:56</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/SdHhEkdZ78QM2SNYjgSRnJX_F-ulIdb-B001bxuTfzLX7rbfuEeO_GXaynLc2zp-LZQizNEB=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Selena Gomez - Boyfriend (Official Video)</h2>
+                  <p class="channel-name">Selena Gomez</p>
+                  <p class="views">35.2M views • 4 years ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/tnuwqRcgzps/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">2:13:00</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/hveNxxK5rf19e1iiBbRLIwuHzhHXzvl2ek83P6l9paUx-LxQG5QrlvmB35BeXNiDlqv1yHJy=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Kis Kisko Pyaar Karoon | Hindi Comedy Movie | Kapil Sharma | Varun Sharma | Hindi Movies 2023</h2>
+                  <p class="channel-name">Venus Movies</p>
+                  <p class="views">45.2M views • 2 years ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/tpJuuhVMhT0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAC1YMvIf74jRm_Fd32BXRPVBIeCA" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">1:59:00</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/xjnenDsZ-6TiNsE13A2Vggxfg0Np7IOtvA5_AaH26QrVelAkRqkWfKVPjemuuq9JN25ppTk-mA=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Jumanji: Welcome to the Jungle Full Movie</h2>
+                  <p class="channel-name">Sony Pictures Entertainment</p>
+                  <p class="views">57.2M views •7 years ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/VfrhPn88Q0c/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC2xCOTYzSH6I9zFRumqD9tM2tXEg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">3:27</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/JEPckdG7X65nuD3H2IU2QTNzLTWrTRNHXwvpSLQAFsyWvlSGAsTXGHDa_tXJXHQR3jwzmyqb2b4=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Sree Vishnu Is A Rakhi Bhai😂 | Samajavaragamana Movie Best Scenes | Reba Monica | Telugu New Movies</h2>
+                  <p class="channel-name">aha videoIN</p>
+                  <p class="views">27k views •1 day ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/ZiI79n84UIY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAJyIdiZ6Bvwxyt3lJSzkruYsxTPg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">3:10</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/JEPckdG7X65nuD3H2IU2QTNzLTWrTRNHXwvpSLQAFsyWvlSGAsTXGHDa_tXJXHQR3jwzmyqb2b4=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Teja And Anandhi's Romantic Moments | Zombie Reddy Movie Scene | Latest Telugu Movies | Aha</h2>
+                  <p class="channel-name">aha videoIN</p>
+                  <p class="views">8.8K views •4 days ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/UgMMqFU7lxI/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">12:55</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/vmmZsYmryt238vqck4KAYf69gOSu22ZfqVE3rwT1tYz4hr68xl7crIUK7kghQgR6RiB9IlQ5mQ=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">'Ve Kamleya' पर Shreya ने चलाया अपने सुरों का Magic | Indian Idol S15 | Best Moments</h2>
+                  <p class="channel-name">SET India</p>
+                  <p class="views">1.7M views •1 month ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i1.sndcdn.com/artworks-TJ9paU39zz72ugbl-5ScZWA-t1080x1080.jpg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">3:18</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/SdHhEkdZ78QM2SNYjgSRnJX_F-ulIdb-B001bxuTfzLX7rbfuEeO_GXaynLc2zp-LZQizNEB=s160-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Wolves</h2>
+                  <p class="channel-name">Selena Gomez</p>
+                  <p class="views">161M Views • 6 years ago</p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img src="https://i.ytimg.com/vi/x4O3c7MQNxY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAYytQX9ha8so9mshzYQbt6hKERhg" alt="Video Thumbnail" class="thumbnail" />
+                <p class="duration">15:14</p>
+              </div>
+              <div class="video-info">
+                <img src="https://yt3.googleusercontent.com/Q_b1-zqLaVAIa6cFby_vlk6gVKD8mpDlPM1lYaLBf5yPy3xt6Ev7YOrA_fAOubIYzJuTHTd55Q=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Oka Majnu Kosam | Episode - 7 | Viraajitha | Sidhu Diwakar | Telugu Web Series | Infinitum Media</h2>
+                  <p class="channel-name">Infinitum Theatre</p>
+                  <p class="views">216K views •5 days ago</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- Linking custom script -->
+    <script src="scriptfile.js"></script>
+  </body>
+</html>
