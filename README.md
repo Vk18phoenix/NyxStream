@@ -25,3 +25,7 @@ Future Enhancements (Next Steps):
 🔹 User Authentication – Allow login and personalized recommendations.
 🔹 Video Streaming – Enable real-time video hosting with API support.
 🔹 Comment & Like System – Add interactivity like YouTube.
+
+Project  Link: https://vk18phoenix.github.io/NyxStream/
+Snip shot:
+![image](https://github.com/user-attachments/assets/767a78a0-a675-483f-9184-195f1cdd3fdb)
